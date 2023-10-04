@@ -1,0 +1,59 @@
+.appContainer {
+  margin: 20px;
+  padding: 0;
+  font-family: Inter;
+  font-style: normal;
+}
+.appHeaderContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.appHeaderBranding {
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+  font-weight: 700;
+  color: black;
+}
+
+.appHeaderSearchContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  padding: 12px;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+.appHeaderSearchInput {
+  outline: unset;
+  border: unset;
+  font-size: 16px;
+  font-weight: 400;
+  min-width: 500px;
+}
+.appHeaderAuthContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.appHeaderAuthLink {
+  padding: 8px;
+  font-size: 14px;
+  font-weight: 400;
+  border: 1px solid black;
+  color: black;
+  margin: 0;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 8px;
+  min-width: 80px;
+  text-align: center;
+}
+.appHeaderAuthLink:hover {
+  background-color: black;
+  color: white;
+}
